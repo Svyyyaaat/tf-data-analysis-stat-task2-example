@@ -7,7 +7,7 @@ from scipy.stats import norm
 chat_id = 1221296874 # Ваш chat ID, не меняйте название переменной
 
 def solution(p: float, x: np.array) -> tuple:
-    x = x / np.sqrt(8)
+    x = x / np.sqrt(32)
     
     alpha = 1 - p
     loc = x.mean()
